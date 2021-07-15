@@ -23,6 +23,15 @@ npm install
 npm run start
 ```
 
+## API_KEY
+Don't foget to get your own API public key given by Marvel. For the purpose of this test, please find mine here and add it to the .env file
+```
+ab6c2425acf0e0d77ab7987d9566a3f0
+```
+
+## Design
+I used some components from the open source library created by LumApps - [Documentation](https://design.lumapps.com/)
+
 ## API Documentation
 For this exercice, I used 2 endpoints from the Marvel API
 <br />
