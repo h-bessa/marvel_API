@@ -7,7 +7,7 @@
 <img align="left" alt="nodejs" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
 
 <br /><br />
-Creating an API Rest for a pseudo forum application corresponding to the entity diagram below
+Creating an API app to read an display Marvel's characters & comics information from the Marvel API
 <br />
 <br />
 
@@ -17,7 +17,15 @@ Creating an API Rest for a pseudo forum application corresponding to the entity 
 ## Setup
 To run this project, clone and install it locally using npm (I didn't use yarn... sorry 😅):
 ```
-git clone git@github.com:hydris-bessa/API_CDA_Typescript_NodeJS_Mongodb.git
+git clone git@github.com:hydris-bessa/marvel_API.git
 npm install
-nodemon source/server.ts
+npm run start
 ```
+
+## API Documentation
+For this exercice, I used 2 endpoints from the Marvel API
+<br />
+- GET /v1/public/characters
+- GET /v1/public/characters/{characterId}/comics
+
+Here to read the [API documentation](https://developer.marvel.com/docs)
