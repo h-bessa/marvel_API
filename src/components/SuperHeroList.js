@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { GetSuperHeroList } from "../actions/SuperHeroAction";
 import { Link } from "react-router-dom";
@@ -29,7 +29,7 @@ function SuperHeroList(props) {
           <div className="list-wrapper">
             <div className="superhero-item">
               <div className="thumbnail">
-                <img src={superHeroImg} className="img" />
+                <img alt="img" src={superHeroImg} className="img" />
               </div>
               <div className="content-list">
                 <h1>{el.name}</h1>

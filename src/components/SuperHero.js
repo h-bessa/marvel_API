@@ -40,7 +40,7 @@ const SuperHero = (props) => {
               </Col>
               <Col className="right-col" sm={3}>
                 <div className="picture">
-                  <img src={superHeroImg}></img>
+                  <img alt="img" src={superHeroImg}></img>
                 </div>
               </Col>
             </Row>

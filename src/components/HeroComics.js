@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { GetHeroComics } from "../actions/SuperHeroAction";
 import moment from "moment";
 import "../Styles/SuperHero.css";
-import _ from "lodash";
 import "../Styles/SuperHero.css";
 
 const HeroComics = (props) => {

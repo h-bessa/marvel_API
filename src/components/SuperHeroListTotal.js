@@ -56,6 +56,7 @@ function SuperHeroListTotal(props) {
     <div className="section">
       <Link to={"/"}>
         <img
+          alt="logo"
           className="logo"
           src="https://cdn.1min30.com/wp-content/uploads/2018/07/Logo-Marvel.png"
         />
