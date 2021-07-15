@@ -12,3 +12,12 @@ Creating an API Rest for a pseudo forum application corresponding to the entity 
 <br />
 
 <img src='https://github.com/lumapps/frontend-tech-test/blob/master/src/Frontend%20Test.png?raw=true' />
+
+
+## Setup
+To run this project, clone and install it locally using npm (I didn't use yarn... sorry 😅):
+```
+git clone git@github.com:hydris-bessa/API_CDA_Typescript_NodeJS_Mongodb.git
+npm install
+nodemon source/server.ts
+```
