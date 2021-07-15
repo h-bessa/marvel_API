@@ -1,0 +1,27 @@
+// Colors
+$blueColor: #28336d;
+
+// Fonts
+$font: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
+$titleSizeFont: 40px;
+$buttonSizeFont: 18px;
+$textSizeFont: 22px;
+$specSizeFont: 10px;
+
+// Button
+@mixin buttonStyle($color, $fontSize) {
+  width: 150px;
+  height: 40px;
+  background-color: $color;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 0 #000;
+}
+
+@mixin fontButton($size) {
+  font-size: $size;
+  font-family: $font;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}

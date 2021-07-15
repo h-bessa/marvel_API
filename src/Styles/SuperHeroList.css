@@ -1,0 +1,77 @@
+.list-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.list-wrapper .superhero-item {
+  margin: 10px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  border: 4px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.thumbnail {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #28336D;
+  border: 3px solid #000;
+  -webkit-box-shadow: 3px 3px 0 0 #000;
+          box-shadow: 3px 3px 0 0 #000;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.content-list {
+  display: inline-block;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-list p {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+/*# sourceMappingURL=SuperHeroList.css.map */

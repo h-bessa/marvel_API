@@ -1,0 +1,76 @@
+@import "../Variables/variables.scss";
+
+.section {
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: $blueColor;
+  height: 200px;
+}
+
+.searchbar {
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 250px;
+  height: 150px;
+  margin-left: 100px;
+}
+
+.lumx-text-field__input-native input {
+  padding: 10px;
+  border-radius: 50px;
+  width: 500px;
+}
+
+.lumx-autocomplete {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.lumx-dropdown__menu {
+  margin-left: auto;
+  background-color: burlywood;
+  padding: 5px;
+  //   margin-top: -17px;
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: $blueColor;
+  border: 3px solid;
+  border-color: white;
+  list-style-type: none;
+}
+
+.lumx-list-item a {
+  text-decoration: none;
+}
+.lumx-list {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.lumx-list-item__content {
+  color: white;
+}
+
+.lumx-list-item__content:hover {
+  color: cadetblue;
+}

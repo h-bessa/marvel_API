@@ -1,0 +1,68 @@
+@import "../Variables/variables.scss";
+
+.container-2 {
+  padding: 20px;
+  max-width: 1920px;
+  margin: auto auto;
+}
+
+.left-col {
+  width: 74%;
+}
+
+.infos {
+  padding: 20px;
+}
+
+.infos p {
+  font-size: $textSizeFont;
+}
+
+.infos a {
+  font-size: 20px;
+}
+
+.picture img {
+  width: 400px;
+  height: 400px;
+  margin-right: 10px;
+}
+
+.free {
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 2px;
+  width: 74%;
+}
+
+.stats {
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+.second-part {
+  margin-top: 20px;
+}
+
+.stats-infos {
+  margin-top: 50px;
+  margin-bottom: 1px;
+}
+.stats-infos p {
+  font-size: $textSizeFont;
+}
+
+.lastest_comics {
+  padding: 20px;
+}
+
+h3 {
+  color: $blueColor;
+}
+
+h3 p {
+  color: black;
+  font-size: 16px !important;
+}

@@ -1,0 +1,81 @@
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #28336D;
+  height: 200px;
+}
+
+.searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logo {
+  width: 250px;
+  height: 150px;
+  margin-left: 100px;
+}
+
+.lumx-text-field__input-native input {
+  padding: 10px;
+  border-radius: 50px;
+  width: 500px;
+}
+
+.lumx-autocomplete {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.lumx-dropdown__menu {
+  margin-left: auto;
+  background-color: burlywood;
+  padding: 5px;
+  margin-right: 15px;
+  border-radius: 15px;
+  background-color: #28336D;
+  border: 3px solid;
+  border-color: white;
+  list-style-type: none;
+}
+
+.lumx-list-item a {
+  text-decoration: none;
+}
+
+.lumx-list {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.lumx-list-item__content {
+  color: white;
+}
+
+.lumx-list-item__content:hover {
+  color: cadetblue;
+}
+/*# sourceMappingURL=SuperHeroListTotal.css.map */
