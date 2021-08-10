@@ -15,7 +15,7 @@ Creating an API app to read an display Marvel's characters & comics information 
 
 
 ## Setup
-To run this project, clone and install it locally using npm (I didn't use yarn... sorry 😅):
+To run this project, clone and install it locally using npm :
 ```
 git clone git@github.com:hydris-bessa/marvel_API.git
 cd marvel_API/
